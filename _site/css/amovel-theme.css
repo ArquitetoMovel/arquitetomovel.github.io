@@ -1281,8 +1281,6 @@ header.jumbotron{
     line-height:24px;
     font-weight:normal;
     color:#1A72C1;
-        font-family: "Geogrotesc";
-	src: url("../fonts/Geogtq-Ul.otf");
 }
 
 #main-footer .small-logo span {
@@ -1291,7 +1289,6 @@ header.jumbotron{
     line-height:24px;
     font-weight:300;
     text-transform:none;
-
 }
 
 

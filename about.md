@@ -4,10 +4,17 @@ title: Sobre
 permalink: /about/
 ---
 
-#Sobre o Arquiteto
+#Quem é o Arquiteto ? 
 
-This is the base **Jekyll** theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Olá meu nome é **Alexandre** ou *@arquitetomovel* no Twitter, seja bem vindo ao meu *Blog*.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Para você que é *Desenvolvendor*, vai encontrar tutoriais de automação, POCS de Arquitetura e 
+minhas esperiencias com desenvolvimento de Software.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Se você é só Geek, espero que acompanhe minhas opniões sobre novos Gadgets, Sistemas Operacionais e aplicativos.
+
+Agradecimentos espciais: 
+
+* [Jekyll](http://jekyllrb.com) plataforma de Blog, no qual está esse site.
+* GitHub Pages , no qual estou hospedando meu site.
+* **Daniel Costa**, designer responsavél pela criação do logo.
