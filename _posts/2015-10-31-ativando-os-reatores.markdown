@@ -5,8 +5,6 @@ date:   2015-10-31 22:00:00
 categories: Geral
 ---
 
-#Ativando os Reatores
-
 Após um longo periodo de inatividade, estou voltando com meu site. 
 
 Inicialmente havia escolhido o **Ghost**, que corresponde (ou 
