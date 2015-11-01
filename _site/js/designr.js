@@ -212,6 +212,10 @@ $(document).ready(function() {
 	$(window).resize(function(){
 		// $('.jumbotron').height($(window).height());
 		// $('.message-box').css({'marginTop':$(window).height()*0.4});
+		if ($(window).weight() <= 728) {
+			$('#Ad_post').remove();
+		}
+		
 		scrollSpyRefresh();
 		waypointsRefresh();
 	});
@@ -225,13 +229,13 @@ $(document).ready(function() {
 
 	$('#about').waypoint(function(direction){
 	
-	// 	if($('.preload-image').length){$('.preload-image').remove();}
-	// 	
-	// 	$('.backstretch').remove();
-	// 
-	// 	if (direction=='down'){
-	// 		$.backstretch('assets/contact-bg.jpg');
-	// 	} 
+		if($('.preload-image').length){$('.preload-image').remove();}
+		
+		$('.backstretch').remove();
+	
+		if (direction=='down'){
+			$.backstretch('assets/contact-bg.jpg');
+		} 
 		//else{
 		// 	 $.backstretch('assets/header-bg.jpg');
 		// }

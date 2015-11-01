@@ -1025,7 +1025,6 @@ header.jumbotron{
 #twitter a:active,
 #twitter a:focus{
     text-decoration:none;
-      color:#fff;
 }
 
 #twitter h1{
@@ -1038,16 +1037,10 @@ header.jumbotron{
     font-weight:300;
 	word-spacing:5px;
     margin-bottom:40px;
-      color:#fff;
 }
 
 #twitter .tweet a:hover{
     text-decoration:underline;
-      color:#fff;
-}
-
-#twitter .tweet a {
-      color:#aaa;
 }
 
 #twitter .timePosted{
@@ -1063,7 +1056,6 @@ header.jumbotron{
     display:inline-block;
     font-size:21px;
     font-weight:300;
-    color:#fff;
 }
 
 #twitter .interact a {
@@ -1628,13 +1620,13 @@ h1.section-title{
     line-height:56px;
 }
 
-#sub_tit_brand {
-    visibility:  visible;
-}
-
 }
 
 @media (max-width: 479px) {
+
+#sub_tit_brand {
+    visibility: hidden;
+}
 
 .jumbotron .right-col p{
     font-size:38px;
@@ -1696,14 +1688,6 @@ p {
     font-size:24px;
     line-height:32px;
 	padding-top:14px;
-}
-
-#sub_tit_brand {
-    visibility: hidden;
-}
-
-#Ad_post {
-     visibility: hidden;
 }
 
 }
