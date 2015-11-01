@@ -1628,6 +1628,10 @@ h1.section-title{
     line-height:56px;
 }
 
+#sub_tit_brand {
+    visibility:  visible;
+}
+
 }
 
 @media (max-width: 479px) {
@@ -1692,6 +1696,14 @@ p {
     font-size:24px;
     line-height:32px;
 	padding-top:14px;
+}
+
+#sub_tit_brand {
+    visibility: hidden;
+}
+
+#Ad_post {
+     visibility: hidden;
 }
 
 }
