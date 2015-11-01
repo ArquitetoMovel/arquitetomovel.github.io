@@ -5,6 +5,10 @@ $(document).ready(function() {
 	
 	$(window).load(function(){
 		$('#page-loader').fadeOut(500);
+		
+		if ($(window).weight() <= 728) {
+			$('#Ad_post').remove();
+		}
 	});	
 	
 	/*============================================
