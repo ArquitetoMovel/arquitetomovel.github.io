@@ -7,6 +7,16 @@
 	font-family: "Geogrotesc";
 	src: url("../fonts/Geogtq-Rg.otf");
 }
+
+ul.post-list
+{
+    list-style-type: none;
+}
+
+span.post-meta {
+    color: #ff8400;
+}
+
 /*----------------------
 ---Main Layout Styles---
 ------------------------*/
@@ -164,7 +174,7 @@ body {
 }
 
 #main-nav .icon-bar {
-    background:#1A72C1;
+    background:#fff;
 }
 
 .btn-theme{
@@ -240,7 +250,7 @@ body {
 }
 
 #main-nav.scrolled .navbar-brand{
-    color:#1A72C1;
+    color:#fff;
 }
 
 #main-nav{
@@ -258,6 +268,7 @@ body {
 }
 
 #main-nav.scrolled .navbar-toggle{
+    background:#1A72C1;
     border-color:#fff;
     color:#fff;
 }
@@ -1534,21 +1545,21 @@ header.jumbotron{
 @media (max-width: 768px) {
 
 #main-nav .navbar-brand{
-    color:#1A72C1;
+    color:#fff;
 }
 
 #main-nav{
-    background:#fff;
-    border-bottom:1px solid #ddd;
+    background:#1A72C1;
+    border-bottom:1px solid #1A72C1;
 }
 
 #main-nav .navbar-toggle{
-    color:#1A72C1;
-    border-color:#1A72C1;
+    color:#fff;
+    border-color:#fff;
 }
 
 #main-nav .navbar-toggle .icon-bar{
-    background:#1A72C1;
+    background:#fff;
 }
 
 #main-nav .container{
@@ -1558,7 +1569,7 @@ header.jumbotron{
 #main-nav .nav a,
 #main-nav .nav a:active,
 #main-nav .nav a:hover{
-    color:#1A72C1;
+    color:#fff;
     line-height:42px;
     text-align:center;
 }

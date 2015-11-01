@@ -7,6 +7,16 @@
 	font-family: "Geogrotesc";
 	src: url("../fonts/Geogtq-Rg.otf");
 }
+
+ul.post-list
+{
+    list-style-type: none;
+}
+
+span.post-meta {
+    color: #ff8400;
+}
+
 /*----------------------
 ---Main Layout Styles---
 ------------------------*/
@@ -164,7 +174,7 @@ body {
 }
 
 #main-nav .icon-bar {
-    background:#1A72C1;
+    background:#fff;
 }
 
 .btn-theme{
@@ -195,6 +205,7 @@ body {
 .btn-theme [class*=fa]{
     margin-right:10px;
 }
+
 
 .btn-theme.transparent{
 	color:#fff;
@@ -239,7 +250,7 @@ body {
 }
 
 #main-nav.scrolled .navbar-brand{
-    color:#1A72C1;
+    color:#fff;
 }
 
 #main-nav{
@@ -257,12 +268,13 @@ body {
 }
 
 #main-nav.scrolled .navbar-toggle{
+    background:#1A72C1;
     border-color:#fff;
     color:#fff;
 }
 
 #main-nav.scrolled .navbar-toggle .icon-bar{
-    background:#1A72C1;
+    background:#fff;
 }
 
 #main-nav .container{
@@ -340,7 +352,7 @@ body {
 
 #main-nav.scrolled .nav a:hover:before,
 #main-nav.scrolled .nav li.active a:before {
-	color: #fff;
+	color: #1A72C1;
 	text-shadow: 12px 0 #1A72C1, -12px 0 #1A72C1;
 }
 
@@ -1280,6 +1292,8 @@ header.jumbotron{
     line-height:24px;
     font-weight:normal;
     color:#1A72C1;
+    font-family: "Geogrotesc";
+	src: url("../fonts/Geogtq-Rg.otf");
 }
 
 #main-footer .small-logo span {
@@ -1531,21 +1545,21 @@ header.jumbotron{
 @media (max-width: 768px) {
 
 #main-nav .navbar-brand{
-    color:#1A72C1;
+    color:#fff;
 }
 
 #main-nav{
-    background:#fff;
-    border-bottom:1px solid #ddd;
+    background:#1A72C1;
+    border-bottom:1px solid #1A72C1;
 }
 
 #main-nav .navbar-toggle{
-    color:#1A72C1;
-    border-color:#1A72C1;
+    color:#fff;
+    border-color:#fff;
 }
 
 #main-nav .navbar-toggle .icon-bar{
-    background:#1A72C1;
+    background:#fff;
 }
 
 #main-nav .container{
@@ -1555,7 +1569,7 @@ header.jumbotron{
 #main-nav .nav a,
 #main-nav .nav a:active,
 #main-nav .nav a:hover{
-    color:#1A72C1;
+    color:#fff;
     line-height:42px;
     text-align:center;
 }

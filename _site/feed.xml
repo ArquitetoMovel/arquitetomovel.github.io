@@ -6,35 +6,58 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 31 Oct 2015 21:11:53 -0200</pubDate>
-    <lastBuildDate>Sat, 31 Oct 2015 21:11:53 -0200</lastBuildDate>
+    <pubDate>Sun, 01 Nov 2015 03:32:48 -0200</pubDate>
+    <lastBuildDate>Sun, 01 Nov 2015 03:32:48 -0200</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>Ativando os Reatores</title>
+        <description>&lt;p&gt;Após um longo periodo de inatividade, estou voltando com meu site. &lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;Inicialmente havia escolhido o &lt;strong&gt;Ghost&lt;/strong&gt;, que corresponde (ou 
+talvez correspondia a uma promissora plataforma de &lt;em&gt;CMS&lt;/em&gt;
+construida sob &lt;a href=&quot;http://nodejs.org/&quot;&gt;nodejs&lt;/a&gt;, &lt;em&gt;javascrip&lt;/em&gt; e sqlite )&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;Notei que passado a euforia, o &lt;em&gt;ghost&lt;/em&gt; começou a ficar muito 
+atrás das versões atuais do &lt;em&gt;nodejs&lt;/em&gt;. Além do alto custo de manter 
+um servidor linux na &lt;strong&gt;Amazon&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Apenas para contextualizar, o &lt;strong&gt;nodejs&lt;/strong&gt; é para o &lt;em&gt;Ghost&lt;/em&gt; o 
+que o &lt;strong&gt;php&lt;/strong&gt; é para o &lt;em&gt;Wordpress&lt;/em&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll’s dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;O proprio &lt;em&gt;Ghost&lt;/em&gt; se ve como alternativa para o &lt;em&gt;Wordpress&lt;/em&gt;. &lt;/p&gt;
 
+&lt;p&gt;Então comecei a estudar desenvolver o site em &lt;em&gt;ASP.NET 5&lt;/em&gt;, 
+pois foi completamente reformulado nessa versão e agora é 
+&lt;em&gt;multiplataforma&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Mas ao longo do tempo iria cair no mesmo problema do &lt;em&gt;Ghost&lt;/em&gt; com
+custo de hospedagem e manutenção com banco de dados.&lt;/p&gt;
+
+&lt;p&gt;Banco de Dados possui algumas vantagens quando se desja 
+cruzar informações, fazer uma mineração etc. &lt;/p&gt;
+
+&lt;p&gt;Mas vejo como irrelevante para armazenar conteúdo de blog que já 
+encontra-se indexado pelo &lt;em&gt;Google&lt;/em&gt; e que possui assuntos temporais. &lt;/p&gt;
+
+&lt;p&gt;Caso se tenha necessidade de buscar o conteúdo local, temos 
+otimas soluções de indexação por arquivo como o &lt;em&gt;Evernote&lt;/em&gt; e 
+&lt;em&gt;One Note&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Foi ai que descobri o &lt;a href=&quot;https://pages.github.com&quot;&gt;github pages&lt;/a&gt; e o &lt;em&gt;CMS&lt;/em&gt; &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Em breve pretendo fazer tutoriais sobre como hospedar paginas 
+estatística bem como blogar e ter a flexibilidade de paginas
+dinâmicas com &lt;em&gt;Jekyll&lt;/em&gt;.  &lt;/p&gt;
 </description>
-        <pubDate>Sat, 24 Oct 2015 22:58:17 -0200</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/10/24/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/10/24/welcome-to-jekyll.html</guid>
+        <pubDate>Sat, 31 Oct 2015 20:00:00 -0200</pubDate>
+        <link>http://yourdomain.com/geral/2015/10/31/ativando-os-reatores.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/geral/2015/10/31/ativando-os-reatores.html</guid>
         
         
-        <category>jekyll</category>
-        
-        <category>update</category>
+        <category>geral</category>
         
       </item>
     
