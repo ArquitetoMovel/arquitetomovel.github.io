@@ -340,7 +340,7 @@ body {
 
 #main-nav.scrolled .nav a:hover:before,
 #main-nav.scrolled .nav li.active a:before {
-	color: #1A72C1;
+	color: #fff;
 	text-shadow: 12px 0 #1A72C1, -12px 0 #1A72C1;
 }
 
