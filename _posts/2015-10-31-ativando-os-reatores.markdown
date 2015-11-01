@@ -14,8 +14,10 @@ construida sob [nodejs](http://nodejs.org/), *javascrip* e sqlite )
 Notei que passado a euforia, o *ghost* começou a ficar muito 
 atrás das versões atuais do *nodejs*. Além do alto custo de manter 
 um servidor linux na **Amazon**.
+
 > Apenas para contextualizar, o **nodejs** é para o _Ghost_ o 
-que o **php** é para o *Wordpress*. 
+que o **php** é para o *Wordpress*.
+ 
 O proprio *Ghost* se ve como alternativa para o *Wordpress*. 
 
 Então comecei a estudar desenvolver o site em *ASP.NET 5*, 
@@ -37,4 +39,6 @@ otimas soluções de indexação por arquivo como o *Evernote* e
 
 Foi ai que descobri o [github pages](https://pages.github.com) e o *CMS* [Jekyll](http://jekyllrb.com).
 
- 
+Em breve pretendo fazer tutoriais sobre como hospedar paginas 
+estatística bem como blogar e ter a flexibilidade de paginas
+dinâmicas com *Jekyll*.  

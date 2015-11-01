@@ -196,7 +196,6 @@ body {
     margin-right:10px;
 }
 
-
 .btn-theme.transparent{
 	color:#fff;
 	background-color:transparent;
@@ -263,7 +262,7 @@ body {
 }
 
 #main-nav.scrolled .navbar-toggle .icon-bar{
-    background:#fff;
+    background:#1A72C1;
 }
 
 #main-nav .container{
