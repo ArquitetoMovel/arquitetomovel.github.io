@@ -3,13 +3,9 @@ $(document).ready(function() {
 	Page Preloader
 	==============================================*/
 	
-	$(window).load(function(){
-		$('#page-loader').fadeOut(500);
-		
-		if ($(window).weight() <= 728) {
-			$('#Ad_post').remove();
-		}
-	});	
+	// $(window).load(function(){
+	// 	$('#page-loader').fadeOut(500);
+	// });	
 	
 	/*============================================
 	Navigation Functions
@@ -213,17 +209,15 @@ $(document).ready(function() {
 	/*============================================
 	Resize Functions
 	==============================================*/
-	$(window).resize(function(){
-		// $('.jumbotron').height($(window).height());
-		// $('.message-box').css({'marginTop':$(window).height()*0.4});
-		if ($(window).weight() <= 728) {
-			$('#Ad_post').remove();
-		}
-		
-		scrollSpyRefresh();
-		waypointsRefresh();
-	});
-	
+	// $(window).resize(function(){
+	// 	// $('.jumbotron').height($(window).height());
+	// 	// $('.message-box').css({'marginTop':$(window).height()*0.4});
+	// 
+	// 	
+	// 	scrollSpyRefresh();
+	// 	waypointsRefresh();
+	// });
+	// 
 	/*============================================
 	Backstretch Images
 	==============================================*/
