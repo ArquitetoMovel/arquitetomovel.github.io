@@ -13,8 +13,12 @@ ul.post-list
     list-style-type: none;
 }
 
-span.post-meta {
+.post-meta {
     color: #ff8400;
+}
+
+p.post-content {
+    color: #181717;
 }
 
 /*----------------------
