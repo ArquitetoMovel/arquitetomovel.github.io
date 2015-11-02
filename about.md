@@ -13,8 +13,14 @@ minhas experiências com desenvolvimento de Software.
 
 Para você que gosta de tecnologia, espero que acompanhe minhas opniões sobre novos Gadgets, Sistemas Operacionais e aplicativos.
 
-Agradecimentos especiais: 
+## O que eu faço ?
 
-* [Jekyll](http://jekyllrb.com) plataforma de Blog, no qual está esse site.
+* Consultoria de Arquitetura e desenvolvimento com foco em tecnologias **Microsoft**, .NET
+* Automação com Microsoft Powershell
+* Desenvolvimento *iOS*
+
+### Agradecimentos especiais: 
+
+* [Jekyll](http://jekyllrb.com) plataforma de Blog, no qual estou utilizando para escrever os posts.
 * GitHub Pages , no qual estou hospedando meu site.
 * **Daniel Costa**, designer responsavél pela criação do logo.
