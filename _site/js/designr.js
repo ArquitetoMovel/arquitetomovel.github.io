@@ -56,40 +56,40 @@ $(document).ready(function() {
 	/*============================================
 	Skills Functions
 	==============================================*/
-	var aboutColor = $('#about').css('backgroundColor');
-
-	$('#skills').waypoint(function(){
-		$('.chart').each(function(){
-		$(this).easyPieChart({
-				size:170,
-				animate: 2000,
-				lineCap:'butt',
-				scaleColor: false,
-				barColor: aboutColor,
-				lineWidth: 10
-			});
-		});
-	},{offset:'80%'});
+// 	var aboutColor = $('#about').css('backgroundColor');
+// 
+// 	$('#skills').waypoint(function(){
+// 		$('.chart').each(function(){
+// 		$(this).easyPieChart({
+// 				size:170,
+// 				animate: 2000,
+// 				lineCap:'butt',
+// 				scaleColor: false,
+// 				barColor: aboutColor,
+// 				lineWidth: 10
+// 			});
+// 		});
+// 	},{offset:'80%'});
 	
 	/*============================================
 	Project thumbs - Masonry
 	==============================================*/
-	$(window).load(function(){
-
-		$('#projects-container').css({visibility:'visible'});
-
-		$('#projects-container').masonry({
-			itemSelector: '.project-item:not(.filtered)',
-			columnWidth:350,
-			isFitWidth: true,
-			isResizable: true,
-			isAnimated: !Modernizr.csstransitions,
-			gutterWidth: 0
-		});
-
-		scrollSpyRefresh();
-		waypointsRefresh();
-	});
+// 	$(window).load(function(){
+// 
+// 		$('#projects-container').css({visibility:'visible'});
+// 
+// 		$('#projects-container').masonry({
+// 			itemSelector: '.project-item:not(.filtered)',
+// 			columnWidth:350,
+// 			isFitWidth: true,
+// 			isResizable: true,
+// 			isAnimated: !Modernizr.csstransitions,
+// 			gutterWidth: 0
+// 		});
+// 
+// 		scrollSpyRefresh();
+// 		waypointsRefresh();
+// 	});
 
 	/*============================================
 	Filter Projects
