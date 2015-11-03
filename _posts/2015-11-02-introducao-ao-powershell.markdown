@@ -13,6 +13,8 @@ script com mais recursos para se trabalhar em um ambiente com Windows.
 
 ### Prompt de comandos do PowerShell
 
+![PowerShell Prompt]("https://onedrive.live.com/redir?resid=2844795977DB8BED!366455&authkey=!ACgy_6UmyTnZqMs&v=3&ithint=photo%2cpng")
+
 ### Ambiente de desenvolvimento do PowerShell
 
 O PowerShell possui uma IDE de desenvolvimento para testar seus scripts e módulos 
