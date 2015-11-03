@@ -13,8 +13,14 @@ ul.post-list
     list-style-type: none;
 }
 
-span.post-meta {
+.post-meta {
     color: #ff8400;
+}
+
+p img {
+   max-width: 100%;
+   display:block; 
+   height: auto;
 }
 
 /*----------------------
