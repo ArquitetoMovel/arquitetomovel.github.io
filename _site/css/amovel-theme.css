@@ -17,14 +17,10 @@ ul.post-list
     color: #ff8400;
 }
 
-p.post-content {
-    color: #181717;
-}
-
-img {
-    max-width: 100%; 
-    display:block; 
-    height: auto;
+p img {
+   max-width: 100%;
+   display:block; 
+   height: auto;
 }
 
 /*----------------------

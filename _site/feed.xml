@@ -6,9 +6,60 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 02 Nov 2015 15:27:08 -0200</pubDate>
-    <lastBuildDate>Mon, 02 Nov 2015 15:27:08 -0200</lastBuildDate>
+    <pubDate>Tue, 03 Nov 2015 00:23:55 -0200</pubDate>
+    <lastBuildDate>Tue, 03 Nov 2015 00:23:55 -0200</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Introdução a automação com PowerShell</title>
+        <description>&lt;p&gt;Vamos começar a primeira de uma serie de artigos sobre automação no &lt;strong&gt;Windows&lt;/strong&gt; com 
+&lt;strong&gt;PowerShell ®&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;O &lt;strong&gt;PowerShell&lt;/strong&gt; venho para substituir o velho &lt;em&gt;cmd.exe&lt;/em&gt;, trazendo uma linguagem de 
+script com mais recursos para se trabalhar em um ambiente com Windows.&lt;/p&gt;
+
+&lt;h3 id=&quot;prompt-de-comandos-do-powershell&quot;&gt;Prompt de comandos do PowerShell&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://lpuyhg-ch3302.files.1drv.com/y3mEefLkFuGtbyfiooLeeILczMslU9flrq0giV2bdmlMLGL3aR1fpAsYS2_AAxP6wo6dzbSw5SICwqSp_96OZZDVEFVVjIXM7x3EZaLhVypKZn2jbpsqNjfRjZx9AydyplzPb9lwSyknzaCntj_CE5maLv0uEl6gzRX770WgmzwzNw/PowerShell.png?psid=1&quot; alt=&quot;PowerShell Prompt&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;ambiente-de-desenvolvimento-do-powershell&quot;&gt;Ambiente de desenvolvimento do PowerShell&lt;/h3&gt;
+
+&lt;p&gt;O PowerShell possui uma IDE de desenvolvimento para testar seus scripts e módulos 
+Inclusive com suporte a depuração.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://pybxew-ch3302.files.1drv.com/y3pzHTZQT83SEPgTeO8LqAE3oHXnXZGLXybnDSgxm2-B4CyE9rsm_xMOqPvNGW-HvyEMaCWmFa4NhnkK7UA4Sq6BG5KenOAHKvhmd7V9L4ojGvJID-AMxctqFdu733J30FpPs8XvRc4Fuv19evxw8SMVR9pL5IkOGhBU54lq3fLZoU/PowerShell_ISE.png?psid=1&quot; alt=&quot;PowerShellISE&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Um dos pontos fortes &lt;em&gt;Linux&lt;/em&gt; é a flexibilidade e quantidade de recursos disponíveis 
+para que um profissional possa customizar e automatizar seu ambiente via linha de 
+comando. &lt;/p&gt;
+
+&lt;p&gt;Pois a Microsoft fecha essa lacuna no &lt;strong&gt;Windows&lt;/strong&gt; com o PowerShell.&lt;/p&gt;
+
+&lt;p&gt;Poucas profissionais como desenvolvedores e adminitradores Windows conhecem ou se 
+quer já tiveram a curiosidade de abrir aquele &lt;em&gt;prompt de comando Azul&lt;/em&gt;. &lt;/p&gt;
+
+&lt;p&gt;Pois bem, eu quero te ajudar a tirar o máximo dessa ferramenta. &lt;/p&gt;
+
+&lt;p&gt;É possivél fazer muitas coisas com &lt;strong&gt;Power Shell ®&lt;/strong&gt;. Mas vamos começar com o 
+clássico &lt;em&gt;Olá Mundo&lt;/em&gt;. &lt;/p&gt;
+
+&lt;p&gt;Apenas acesse o menu iniciar do Windows, localize e abra o &lt;strong&gt;PowerShell&lt;/strong&gt; e digite: &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; Write-Host &quot;Olá Mundo&quot;  &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Após o ` [Enter]` veremos um saudoso &lt;em&gt;Olá Mundo&lt;/em&gt; impresso no prompt.&lt;/p&gt;
+
+&lt;p&gt;No proximo artigo, veremos como salvar nosso programa &lt;strong&gt;PowerShell&lt;/strong&gt; e rodar o 
+ mesmo diversas vezes.    &lt;/p&gt;
+</description>
+        <pubDate>Mon, 02 Nov 2015 20:30:00 -0200</pubDate>
+        <link>http://yourdomain.com/powershell/2015/11/02/introducao-ao-powershell.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/powershell/2015/11/02/introducao-ao-powershell.html</guid>
+        
+        
+        <category>powershell</category>
+        
+      </item>
     
       <item>
         <title>Ativando os Reatores</title>
