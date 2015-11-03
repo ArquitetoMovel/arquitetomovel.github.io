@@ -13,7 +13,7 @@ script com mais recursos para se trabalhar em um ambiente com Windows.
 
 ### Prompt de comandos do PowerShell
 
-![PowerShell Prompt]("https://onedrive.live.com/redir?resid=2844795977DB8BED!366455&authkey=!ACgy_6UmyTnZqMs&v=3&ithint=photo%2cpng")
+![PowerShell Prompt](https://www.dropbox.com/s/pbfkqruejspydc0/PowerShell.png?raw=1)
 
 ### Ambiente de desenvolvimento do PowerShell
 
