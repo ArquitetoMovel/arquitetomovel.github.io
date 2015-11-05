@@ -1,6 +1,6 @@
 # Rodando scripts do PowerShell
 
-No artigo ![Introdução ao Powershell](), vimos como executar um simples **Olá Mundo** diretamente no prompt de comando.
+No artigo [Introdução ao Powershell](http://arquitetomovel.com.br/powershell/2015/11/02/introducao-ao-powershell.html), vimos como executar um simples **Olá Mundo** diretamente no prompt de comando.
 
 Mas e se quisermos rodar essa instrução diversas vezes no nosso Windows?
 
@@ -18,6 +18,7 @@ A partir desse ponto,  podemos colocar nosso **bat** em um agendador de tarefas,
 
 Ainda podemos ter as seguintes opções na execução da linha de comando do PowerShell: 
 
-* **-NoProfile** 
-* **-ExecutionPolicy**
+* **-ExecutionPolicy** Para executar um script que requer permissões especiais do Windows, é possivél reescrever as politicas 
+de segurança para rodar o seu script. Para ignorar politicas que proibibe execução de sripts, usamos a seguinte combinação:
+ `-ExecutionPolicy ByPass`.
 * **-Command** quando incluimos opções adicionais, é necessário adicionar esse paramentro antes da chamada do script *ps1*.
