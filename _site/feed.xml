@@ -6,9 +6,85 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 Nov 2015 00:23:55 -0200</pubDate>
-    <lastBuildDate>Tue, 03 Nov 2015 00:23:55 -0200</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
+    <pubDate>Sat, 07 Nov 2015 13:01:47 -0200</pubDate>
+    <lastBuildDate>Sat, 07 Nov 2015 13:01:47 -0200</lastBuildDate>
+    <generator>Jekyll v3.0.0</generator>
+    
+      <item>
+        <title>Porque vou continuar no OneDrive</title>
+        <description>&lt;p&gt;Essa semana tivemos um #mimimi por conta do &lt;a href=&quot;https://www.google.com.br/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=6&amp;amp;cad=rja&amp;amp;uact=8&amp;amp;ved=0CC0QqQIwBWoVChMI57K_mev5yAIVgx-QCh0J9wNn&amp;amp;url=http%3A%2F%2Folhardigital.uol.com.br%2Fnoticia%2Fabaixo-assinado-pede-retorno-do-armazenamento-do-onedrive%2F52732&amp;amp;usg=AFQjCNGNkdkI2rGShU6JHAVagXEy6NHAoA&quot;&gt;comunicado da Microsoft referente a novas políticas de armazenamento do &lt;strong&gt;OneDrive&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;O armazenamento que antes era virtualmente &lt;strong&gt;ilimitado&lt;/strong&gt; agora passa a ter os seguintes limites:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;5GB de Armazenamento gratuito&lt;/li&gt;
+  &lt;li&gt;1TB para assinantes do &lt;em&gt;Office 365&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Levando em conta que o &lt;strong&gt;Dropbox&lt;/strong&gt; fornece apenas &lt;em&gt;2GB&lt;/em&gt; gratuitos, 5GB é um número aceitável para um serviço sustentável que não entope o usuário com propagandas.&lt;/p&gt;
+
+&lt;p&gt;Para assinantes do &lt;strong&gt;Office 365&lt;/strong&gt;, considero 1TG mais que suficiente para armazenamento dos meus arquivos pessoais.&lt;/p&gt;
+
+&lt;p&gt;No &lt;strong&gt;Dropbox&lt;/strong&gt; você paga $9,99/Mês (cerca de &lt;strong&gt;R$38&lt;/strong&gt; nos dias atuais)!&lt;/p&gt;
+
+&lt;p&gt;No &lt;strong&gt;Office 365&lt;/strong&gt; com planos a partir de &lt;strong&gt;R$21&lt;/strong&gt; você tem:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Word, Excel, PowerPoint e OneNote (no PC, MAC e Mobile)&lt;/li&gt;
+  &lt;li&gt;Skype (60 minutos em ligações locais)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1TG de armazenamento no OneDrive&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ou seja, é só fazer as contas :)&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 05 Nov 2015 18:45:00 -0200</pubDate>
+        <link>http://yourdomain.com/noticias/2015/11/05/porque-vou-continuar-no-onedrive.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/noticias/2015/11/05/porque-vou-continuar-no-onedrive.html</guid>
+        
+        
+        <category>Noticias</category>
+        
+      </item>
+    
+      <item>
+        <title>Rodando scripts do PowerShell</title>
+        <description>&lt;p&gt;No artigo [Introdução ao Powershell] (http://arquitetomovel.com.br/powershell/2015/11/02/introducao-ao-powershell.html), vimos como executar um simples &lt;strong&gt;Olá Mundo&lt;/strong&gt; diretamente no prompt de comando.&lt;/p&gt;
+
+&lt;p&gt;Mas e se quisermos rodar essa instrução diversas vezes no nosso Windows?&lt;/p&gt;
+
+&lt;p&gt;Para tal tarefa, teremos que salvar essa instrução em um arquivo &lt;strong&gt;.ps1&lt;/strong&gt;. Essa é a extensão para os scripts &lt;strong&gt;PowerShell&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;c:\olamundo.ps1&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Com arquivo &lt;strong&gt;.ps1&lt;/strong&gt;, temos a oportunidade de executar esse script em um arquivo de sistema &lt;strong&gt;.bat&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;No arquivo &lt;strong&gt;.bat&lt;/strong&gt; deveremos colocar a seguinte linha:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;powershell C:\olamundo.ps1&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;A partir desse ponto, podemos colocar nosso &lt;strong&gt;bat&lt;/strong&gt; em uma tarefa agendada, na inicialização do sistema ou simplesmente executar acessando o mesmo.&lt;/p&gt;
+
+&lt;p&gt;Ainda podemos ter as seguintes opções na execução da linha de comando do PowerShell:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;-ExecutionPolicy&lt;/strong&gt; Para executar um script que requer permissões especiais do Windows, é possível reescrever as politicas 
+Segurança para rodar o seu script. Para ignorar políticas que proíbe execução de scripts, usamos a seguinte combinação:
+ &lt;code&gt;-ExecutionPolicy ByPass&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;-Command&lt;/strong&gt; quando incluímos opções adicionais, é necessário adicionar esse parâmetro antes da chamada do script &lt;em&gt;ps1&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Thu, 05 Nov 2015 16:40:00 -0200</pubDate>
+        <link>http://yourdomain.com/powershell/2015/11/05/rodando-scripts-powershell.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/powershell/2015/11/05/rodando-scripts-powershell.html</guid>
+        
+        
+        <category>PowerShell</category>
+        
+      </item>
     
       <item>
         <title>Introdução a automação com PowerShell</title>
@@ -27,43 +103,42 @@ script com mais recursos para se trabalhar em um ambiente com Windows.&lt;/p&gt;
 &lt;p&gt;O PowerShell possui uma IDE de desenvolvimento para testar seus scripts e módulos 
 Inclusive com suporte a depuração.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://pybxew-ch3302.files.1drv.com/y3pzHTZQT83SEPgTeO8LqAE3oHXnXZGLXybnDSgxm2-B4CyE9rsm_xMOqPvNGW-HvyEMaCWmFa4NhnkK7UA4Sq6BG5KenOAHKvhmd7V9L4ojGvJID-AMxctqFdu733J30FpPs8XvRc4Fuv19evxw8SMVR9pL5IkOGhBU54lq3fLZoU/PowerShell_ISE.png?psid=1&quot; alt=&quot;PowerShellISE&quot; /&gt;&lt;/p&gt;
-
 &lt;p&gt;Um dos pontos fortes &lt;em&gt;Linux&lt;/em&gt; é a flexibilidade e quantidade de recursos disponíveis 
 para que um profissional possa customizar e automatizar seu ambiente via linha de 
-comando. &lt;/p&gt;
+comando.&lt;/p&gt;
 
 &lt;p&gt;Pois a Microsoft fecha essa lacuna no &lt;strong&gt;Windows&lt;/strong&gt; com o PowerShell.&lt;/p&gt;
 
-&lt;p&gt;Poucas profissionais como desenvolvedores e adminitradores Windows conhecem ou se 
-quer já tiveram a curiosidade de abrir aquele &lt;em&gt;prompt de comando Azul&lt;/em&gt;. &lt;/p&gt;
+&lt;p&gt;Poucos profissionais como desenvolvedores e adminitradores Windows conhecem ou se 
+quer já tiveram a curiosidade de abrir aquele &lt;em&gt;prompt de comando Azul&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;Pois bem, eu quero te ajudar a tirar o máximo dessa ferramenta. &lt;/p&gt;
+&lt;p&gt;Pois bem, eu quero te ajudar a tirar o máximo dessa ferramenta.&lt;/p&gt;
 
 &lt;p&gt;É possivél fazer muitas coisas com &lt;strong&gt;Power Shell ®&lt;/strong&gt;. Mas vamos começar com o 
-clássico &lt;em&gt;Olá Mundo&lt;/em&gt;. &lt;/p&gt;
+clássico &lt;em&gt;Olá Mundo&lt;/em&gt;.&lt;/p&gt;
 
-&lt;p&gt;Apenas acesse o menu iniciar do Windows, localize e abra o &lt;strong&gt;PowerShell&lt;/strong&gt; e digite: &lt;/p&gt;
+&lt;p&gt;Apenas acesse o menu iniciar do Windows, localize e abra o &lt;strong&gt;PowerShell&lt;/strong&gt;, 
+(ou pressione as combinações [Windows] + [R], digite &lt;em&gt;powershell&lt;/em&gt; [Enter]) e digite:&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt; Write-Host &quot;Olá Mundo&quot;  &lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;Após o ` [Enter]` veremos um saudoso &lt;em&gt;Olá Mundo&lt;/em&gt; impresso no prompt.&lt;/p&gt;
 
 &lt;p&gt;No proximo artigo, veremos como salvar nosso programa &lt;strong&gt;PowerShell&lt;/strong&gt; e rodar o 
- mesmo diversas vezes.    &lt;/p&gt;
+ mesmo diversas vezes.&lt;/p&gt;
 </description>
         <pubDate>Mon, 02 Nov 2015 20:30:00 -0200</pubDate>
         <link>http://yourdomain.com/powershell/2015/11/02/introducao-ao-powershell.html</link>
         <guid isPermaLink="true">http://yourdomain.com/powershell/2015/11/02/introducao-ao-powershell.html</guid>
         
         
-        <category>powershell</category>
+        <category>PowerShell</category>
         
       </item>
     
       <item>
         <title>Ativando os Reatores</title>
-        <description>&lt;p&gt;Após um longo periodo de inatividade, estou voltando com meu site. &lt;/p&gt;
+        <description>&lt;p&gt;Após um longo periodo de inatividade, estou voltando com meu site.&lt;/p&gt;
 
 &lt;p&gt;Inicialmente havia escolhido o &lt;strong&gt;Ghost&lt;/strong&gt;, que corresponde (ou 
 talvez correspondia a uma promissora plataforma de &lt;em&gt;CMS&lt;/em&gt;
@@ -78,7 +153,7 @@ um servidor linux na &lt;strong&gt;Amazon&lt;/strong&gt;.&lt;/p&gt;
 que o &lt;strong&gt;php&lt;/strong&gt; é para o &lt;em&gt;Wordpress&lt;/em&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;O proprio &lt;em&gt;Ghost&lt;/em&gt; se ve como alternativa para o &lt;em&gt;Wordpress&lt;/em&gt;. &lt;/p&gt;
+&lt;p&gt;O proprio &lt;em&gt;Ghost&lt;/em&gt; se ve como alternativa para o &lt;em&gt;Wordpress&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;Então comecei a estudar desenvolver o site em &lt;em&gt;ASP.NET 5&lt;/em&gt;, 
 pois foi completamente reformulado nessa versão e agora é 
@@ -88,10 +163,10 @@ pois foi completamente reformulado nessa versão e agora é
 custo de hospedagem e manutenção com banco de dados.&lt;/p&gt;
 
 &lt;p&gt;Banco de Dados possui algumas vantagens quando se desja 
-cruzar informações, fazer uma mineração etc. &lt;/p&gt;
+cruzar informações, fazer uma mineração etc.&lt;/p&gt;
 
 &lt;p&gt;Mas vejo como irrelevante para armazenar conteúdo de blog que já 
-encontra-se indexado pelo &lt;em&gt;Google&lt;/em&gt; e que possui assuntos temporais. &lt;/p&gt;
+encontra-se indexado pelo &lt;em&gt;Google&lt;/em&gt; e que possui assuntos temporais.&lt;/p&gt;
 
 &lt;p&gt;Caso se tenha necessidade de buscar o conteúdo local, temos 
 otimas soluções de indexação por arquivo como o &lt;em&gt;Evernote&lt;/em&gt; e 
@@ -101,14 +176,14 @@ otimas soluções de indexação por arquivo como o &lt;em&gt;Evernote&lt;/em&gt
 
 &lt;p&gt;Em breve pretendo fazer tutoriais sobre como hospedar paginas 
 estatística bem como blogar e ter a flexibilidade de paginas
-dinâmicas com &lt;em&gt;Jekyll&lt;/em&gt;.  &lt;/p&gt;
+dinâmicas com &lt;em&gt;Jekyll&lt;/em&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sat, 31 Oct 2015 20:00:00 -0200</pubDate>
         <link>http://yourdomain.com/geral/2015/10/31/ativando-os-reatores.html</link>
         <guid isPermaLink="true">http://yourdomain.com/geral/2015/10/31/ativando-os-reatores.html</guid>
         
         
-        <category>geral</category>
+        <category>Geral</category>
         
       </item>
     

@@ -1043,12 +1043,10 @@ header.jumbotron{
     font-weight:300;
 	word-spacing:5px;
     margin-bottom:40px;
-    color: #ff8400;
 }
 
 #twitter .tweet a:hover{
     text-decoration:underline;
-    color: #ff8400;
 }
 
 #twitter .timePosted{
@@ -1064,7 +1062,6 @@ header.jumbotron{
     display:inline-block;
     font-size:21px;
     font-weight:300;
-     color: #ff8400;
 }
 
 #twitter .interact a {
