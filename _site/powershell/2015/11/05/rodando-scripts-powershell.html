@@ -6,7 +6,7 @@
 		Title and Meta Tags
 		=============================================== -->
 		<meta charset="utf-8">
-		<title>Sobre</title>
+		<title>Rodando scripts do PowerShell</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		
@@ -122,48 +122,70 @@
 			
 		</div><!--End main-nav -->
 		
-		<section id="about">
+		<section id="services">
+  <div>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- post_end -->
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-0153285329662397" data-ad-slot="8571797945" data-ad-format="auto"></ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+  <div class="container">
+    <header class="post-header">
+      <h1 class="post-title">Rodando scripts do PowerShell</h1>
+      <p class="post-meta">
+        Nov 5, 2015
+      </p>
+    </header>
+    <article class="post-content">
+      <p>No artigo [Introdução ao Powershell] (http://arquitetomovel.com.br/powershell/2015/11/02/introducao-ao-powershell.html), vimos como executar um simples <strong>Olá Mundo</strong> diretamente no prompt de comando.</p>
 
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-4 col-sm-offset-1 scrollimation fade-right">
-				<img class="img-responsive img-circle img-center" src="/assets/avatar.png" alt="">
-			</div>
-			<div class="col-sm-6 col-sm-offset-1 scrollimation fade-left">
-				 <h1 id="quem--o-arquiteto-">Quem é o Arquiteto ?</h1>
+<p>Mas e se quisermos rodar essa instrução diversas vezes no nosso Windows?</p>
 
-<p>Olá meu nome é <strong>Alexandre</strong> ou <em>@arquitetomovel</em> no Twitter, seja bem vindo ao meu <em>Blog</em>.</p>
-
-<p>Para você que é <em>Desenvolvendor</em>, vai encontrar tutoriais de automação, POCS de Arquitetura e 
-minhas experiências com desenvolvimento de Software.</p>
-
-<p>Para você que gosta de tecnologia, espero que acompanhe minhas opniões sobre novos Gadgets, Sistemas Operacionais e aplicativos.</p>
-
-<h2 id="o-que-eu-fao-">O que eu faço ?</h2>
-
-<ul>
-  <li>Consultoria de Arquitetura e desenvolvimento com foco em tecnologias <strong>Microsoft</strong>, .NET</li>
-  <li>Automação com Microsoft Powershell</li>
-  <li>Desenvolvimento <em>iOS</em></li>
-</ul>
-
-<h3 id="agradecimentos-especiais">Agradecimentos especiais:</h3>
+<p>Para tal tarefa, teremos que salvar essa instrução em um arquivo <strong>.ps1</strong>. Essa é a extensão para os scripts <strong>PowerShell</strong>.</p>
 
 <ul>
-  <li><a href="http://jekyllrb.com">Jekyll</a> plataforma de Blog, no qual estou utilizando para escrever os posts.</li>
-  <li>GitHub Pages , no qual estou hospedando meu site.</li>
-  <li><strong>Daniel Costa</strong>, designer responsavél pela criação do logo.</li>
+  <li>c:\olamundo.ps1</li>
 </ul>
 
-			</div>
-		</div>
-		<!--End row -->
+<p>Com arquivo <strong>.ps1</strong>, temos a oportunidade de executar esse script em um arquivo de sistema <strong>.bat</strong>.</p>
 
-	</div>
-	<!--End container -->
+<p>No arquivo <strong>.bat</strong> deveremos colocar a seguinte linha:</p>
 
+<p><code>powershell C:\olamundo.ps1</code></p>
+
+<p>A partir desse ponto, podemos colocar nosso <strong>bat</strong> em uma tarefa agendada, na inicialização do sistema ou simplesmente executar acessando o mesmo.</p>
+
+<p>Ainda podemos ter as seguintes opções na execução da linha de comando do PowerShell:</p>
+
+<ul>
+  <li><strong>-ExecutionPolicy</strong> Para executar um script que requer permissões especiais do Windows, é possível reescrever as politicas 
+Segurança para rodar o seu script. Para ignorar políticas que proíbe execução de scripts, usamos a seguinte combinação:
+ <code>-ExecutionPolicy ByPass</code>.</li>
+  <li><strong>-Command</strong> quando incluímos opções adicionais, é necessário adicionar esse parâmetro antes da chamada do script <em>ps1</em>.</li>
+</ul>
+
+
+    </article>
+   <div style="width:80%;">
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+        var disqus_shortname = 'arquitetomvel'; // required: replace example with your forum shortname
+    var disqus_identifier = '/powershell/2015/11/05/rodando-scripts-powerShell'; //''; // make sure to use the post.id as an identifier, otherwise disqus will use the pages url per default, which might be problematic...
+ 
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+  </div>
 </section>
-<!--End about section -->
 		
 		<!-- ==============================================
 		TWITTER FEED 
