@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Todoist para Windows 10 alpha está chegando"
+title:  "Todoist para Windows 10 está chegando..."
 date:   2015-11-13 16:45
 categories: Noticias
 ---
