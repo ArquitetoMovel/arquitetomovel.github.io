@@ -6,7 +6,7 @@ categories: Reviews
 ---
 
 Após longo tempo de espera no [br.xiami](http://br.mi.com/Pulseira-Inteligente-Mi-Band),
-finalmente foi possível comprar o **Gadget** "*wearable*" mais barato disponível em solos Brasileiro.
+finalmente foi possível comprar a **Mi Band**. O "*wearable*" mais barato disponível em solos Brasileiro.
 
 Recebi o e-mail de disponibilidade dia 10/11, efetuei a compra na madrugada do dia 11/11
 e recebi a *pulseira* no final do dia 13/11. Uma logística que me pareceu bem eficiente por sinal.
@@ -34,7 +34,7 @@ conectada ao PC para começar a dar sinal de vida.
 
 Carreguei a *Mi Band* totalmente e após 21 horas de uso, ainda tenho 96% de bateria! Isso é incrivél. 
 
-Outro ponto que gostei bastante, é o fato dela reconnhecer automaticamente o modo  **sono**.
+Outro ponto que gostei bastante, é o fato dela reconhecer automaticamente o modo  **sono**.
 
 Pois na **fitbit** eu era obrigado a dar um duplo toque para ela entrar em modo sono, 
 e fatalmente acabava esquecendo alguns dias.
