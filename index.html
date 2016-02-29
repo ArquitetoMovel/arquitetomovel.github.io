@@ -1,9 +1,10 @@
 --- 
-layout: strata 
-title: Arquiteto Móvel Tecnologia 
+    layout: strata 
+    title: Arquiteto Móvel Tecnologia 
 --- 
 
 {% for post in site.posts %}
+
 <section id="one">
     <header class="major">
         <h2>{{ post.title }}</h2>
@@ -65,39 +66,3 @@ title: Arquiteto Móvel Tecnologia
         </div>
     </div>
 </section>
-<!--
-<section id="services">
-  <div class="container">
-  <div class="row">
-  <div class="col-sm-8 left-col">
-    <ul class="post-list">
-      {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h1>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h1>
-        <p>
-          {{ post.excerpt }}
-          </p> 
-      </li>
-      {% endfor %}
-    </ul>
-    <br />
-    <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a></p>
-  </div>
-  <div class="col-sm-4 right-col">
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-<ins class="adsbygoogle"
-     style="display:inline-block;width:300px;height:600px"
-     data-ad-client="ca-pub-0153285329662397"
-     data-ad-slot="7153940340"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-  </div>
-  </div>
-  </div>
-</section>
--->
