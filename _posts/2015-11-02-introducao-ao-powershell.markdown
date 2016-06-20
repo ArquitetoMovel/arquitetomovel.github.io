@@ -2,7 +2,7 @@
 layout: post
 title:  "Introdução a automação com PowerShell"
 date:   2015-11-02 22:30:00
-categories: PowerShell
+categories: Microsoft
 ---
 
 Vamos começar a primeira de uma serie de artigos sobre automação no **Windows** com 

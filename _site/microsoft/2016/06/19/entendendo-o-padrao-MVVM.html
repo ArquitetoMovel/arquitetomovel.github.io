@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Todoist para Windows 10 está chegando...</title>
+		<title>Entendendo o padrão MVVM</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -32,19 +32,42 @@
                 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Todoist para Windows 10 está chegando...</h1>
-    <p class="post-meta"><time datetime="2015-11-13T16:45:00-02:00" itemprop="datePublished">Nov 13, 2015</time></p>
+    <h1 class="post-title" itemprop="name headline">Entendendo o padrão MVVM</h1>
+    <p class="post-meta"><time datetime="2016-06-19T07:07:00-03:00" itemprop="datePublished">Jun 19, 2016</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>A equipe do <strong>Todoist</strong> que desenvolve uma das melhores aplicações de gestão de tarefas com suporte ao <a href="https://pt.wikipedia.org/wiki/Getting_Things_Done">GTD</a>, 
-confirmou em seu <a href="https://twitter.com/todoist/status/664901459285184512?s=09">twitter</a> uma versão oficial do aplicativo para <a href="https://en.todoist.com/windows">Windows 10</a>.</p>
+    <p><strong>MVVM</strong> é um padrão criado pela Microsoft para construção de aplicações Windows 
+utilizando sua tecnologia de marcação <strong>XAML</strong> para construção de interfaces gráficas.</p>
 
-<p>Segundo o post, uma versão <em>alpha</em> estaria chegando no próximo dia <strong>17 de novembro</strong>.</p>
+<p>Esse padrão proporciona uma separação entre linguagem XAML e a linguagem que leva e admite
+ dados de entrada através da interface com o usuário sem a necessidade de realizar uma 
+ atribuição dura entre elemento XAML e código C#.</p>
 
-<p>É ótimo ver grandes desenvolvedores prestigiando a plataforma.</p>
+<h3 id="exemplo">Exemplo:</h3>
+<p><code class="highlighter-rouge"> this.txtUIName.Text = nomePessoa</code></p>
 
-<p>Fonte: <a href="http://www.windowscentral.com/todoist-confirms-app-windows-10-looking-alpha-testers-make-it-great">Windows Central</a></p>
+<p>Essa seria a forma de <strong>Bind</strong> mais simples entre um elemento da interface com o usuário 
+e a aplicação, trata-se de uma atribuição simples utilizando camada de eventos padrão da pagina XAML <strong>codebehind</strong>.</p>
+
+<p>Porém quando temos que exibir o mesmo dado em diferentes interfaces e o nosso 
+modelo pode se conectar a diferentes fontes dados, temos um problema com o modelo acima 
+por não conseguir reutilizar o nosso contrato de dados. 
+Também temos problemas com o Designer da aplicação que utiliza o <strong>Visual Blend</strong> e não 
+precisa lidar diretamente com código C#.</p>
+
+<blockquote>
+  <p>Com o MVVM, temos um objeto intermediário entre a UI-XAML e minhas classes de modelo 
+ou DATA SERVICES.</p>
+</blockquote>
+
+<h2 id="elementos-do-mvvm">Elementos do MVVM</h2>
+
+<p>A seguir vamos detalhar os principais componentes que viabilizam a aplicação do <em>MVVM</em></p>
+
+<h3 id="xbind-ou-bind">1. X:Bind ou Bind</h3>
+
+<p>Essas tags são utilizadas</p>
 
   </div>
 

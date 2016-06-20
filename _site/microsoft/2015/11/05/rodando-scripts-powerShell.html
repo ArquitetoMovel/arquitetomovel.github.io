@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Todoist para Windows 10 está chegando...</title>
+		<title>Rodando scripts do PowerShell</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -32,19 +32,38 @@
                 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Todoist para Windows 10 está chegando...</h1>
-    <p class="post-meta"><time datetime="2015-11-13T16:45:00-02:00" itemprop="datePublished">Nov 13, 2015</time></p>
+    <h1 class="post-title" itemprop="name headline">Rodando scripts do PowerShell</h1>
+    <p class="post-meta"><time datetime="2015-11-05T16:40:00-02:00" itemprop="datePublished">Nov 5, 2015</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>A equipe do <strong>Todoist</strong> que desenvolve uma das melhores aplicações de gestão de tarefas com suporte ao <a href="https://pt.wikipedia.org/wiki/Getting_Things_Done">GTD</a>, 
-confirmou em seu <a href="https://twitter.com/todoist/status/664901459285184512?s=09">twitter</a> uma versão oficial do aplicativo para <a href="https://en.todoist.com/windows">Windows 10</a>.</p>
+    <p>No artigo [Introdução ao Powershell] (http://arquitetomovel.com.br/powershell/2015/11/02/introducao-ao-powershell.html), vimos como executar um simples <strong>Olá Mundo</strong> diretamente no prompt de comando.</p>
 
-<p>Segundo o post, uma versão <em>alpha</em> estaria chegando no próximo dia <strong>17 de novembro</strong>.</p>
+<p>Mas e se quisermos rodar essa instrução diversas vezes no nosso Windows?</p>
 
-<p>É ótimo ver grandes desenvolvedores prestigiando a plataforma.</p>
+<p>Para tal tarefa, teremos que salvar essa instrução em um arquivo <strong>.ps1</strong>. Essa é a extensão para os scripts <strong>PowerShell</strong>.</p>
 
-<p>Fonte: <a href="http://www.windowscentral.com/todoist-confirms-app-windows-10-looking-alpha-testers-make-it-great">Windows Central</a></p>
+<ul>
+  <li>c:\olamundo.ps1</li>
+</ul>
+
+<p>Com arquivo <strong>.ps1</strong>, temos a oportunidade de executar esse script em um arquivo de sistema <strong>.bat</strong>.</p>
+
+<p>No arquivo <strong>.bat</strong> deveremos colocar a seguinte linha:</p>
+
+<p><code class="highlighter-rouge">powershell C:\olamundo.ps1</code></p>
+
+<p>A partir desse ponto, podemos colocar nosso <strong>bat</strong> em uma tarefa agendada, na inicialização do sistema ou simplesmente executar acessando o mesmo.</p>
+
+<p>Ainda podemos ter as seguintes opções na execução da linha de comando do PowerShell:</p>
+
+<ul>
+  <li><strong>-ExecutionPolicy</strong> Para executar um script que requer permissões especiais do Windows, é possível reescrever as politicas 
+Segurança para rodar o seu script. Para ignorar políticas que proíbe execução de scripts, usamos a seguinte combinação:
+ <code class="highlighter-rouge">-ExecutionPolicy ByPass</code>.</li>
+  <li><strong>-Command</strong> quando incluímos opções adicionais, é necessário adicionar esse parâmetro antes da chamada do script <em>ps1</em>.</li>
+</ul>
+
 
   </div>
 
