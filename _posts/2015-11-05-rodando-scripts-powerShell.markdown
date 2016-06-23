@@ -2,7 +2,7 @@
 layout: post
 title:  "Rodando scripts do PowerShell"
 date:   2015-11-05 18:40:00
-categories: PowerShell
+categories: Microsoft
 ---
 No artigo [Introdução ao Powershell] (http://arquitetomovel.com.br/powershell/2015/11/02/introducao-ao-powershell.html), vimos como executar um simples **Olá Mundo** diretamente no prompt de comando.
 

@@ -3,6 +3,7 @@ layout: strata
 title: Arquiteto Movel 
 ---
 
+<<<<<<< HEAD
 
  {% for post in site.posts %}
 <section id="one">
@@ -64,6 +65,31 @@ title: Arquiteto Movel
                     <a href="#"></a>
                 </li>
             </ul>
+=======
+<div class="home">
+    {% for post in site.posts %}
+    <section id="one">
+        <header class="major">
+            <h2>{{ post.title }}</h2>
+            <h4>{{ post.date | date: "%b %-d, %Y" }}</h4>
+        </header>
+        <p>{{ post.excerpt }}</p>
+        <ul style="list-style:none;" class="actions">
+            <li><a href="{{ post.url | prepend: site.baseurl }}" class="button">Leia Mais</a></li>
+        </ul>
+    </section>
+    {% endfor %}
+    <section id="four">
+        <h4 class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a></h4>
+    </section>
+    <!-- Three -->
+    <section id="three">
+        <h2>Sobre</h2>
+        <p>Para você que é Desenvolvendor, vai encontrar tutoriais de automação, POCS de Arquitetura e minhas experiências com
+            desenvolvimento de Software.</p>
+        <p>Para você que gosta de tecnologia, espero que acompanhe minhas opniões sobre novos Gadgets, Sistemas Operacionais
+            e aplicativos.</p>
+>>>>>>> refs/remotes/origin/gh-pages
         </div>
     </div>
 </section>

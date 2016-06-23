@@ -6,9 +6,15 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+<<<<<<< HEAD
     <pubDate>Tue, 01 Mar 2016 08:11:29 -0300</pubDate>
     <lastBuildDate>Tue, 01 Mar 2016 08:11:29 -0300</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
+=======
+    <pubDate>Sun, 19 Jun 2016 22:52:34 -0300</pubDate>
+    <lastBuildDate>Sun, 19 Jun 2016 22:52:34 -0300</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+>>>>>>> refs/remotes/origin/gh-pages
     
       <item>
         <title>Mi Band primeiras impressões</title>
@@ -149,11 +155,11 @@ Segurança para rodar o seu script. Para ignorar políticas que proíbe execuç�
 
 </description>
         <pubDate>Thu, 05 Nov 2015 16:40:00 -0200</pubDate>
-        <link>http://yourdomain.com/powershell/2015/11/05/rodando-scripts-powerShell.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/powershell/2015/11/05/rodando-scripts-powerShell.html</guid>
+        <link>http://yourdomain.com/microsoft/2015/11/05/rodando-scripts-powerShell.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/microsoft/2015/11/05/rodando-scripts-powerShell.html</guid>
         
         
-        <category>PowerShell</category>
+        <category>Microsoft</category>
         
       </item>
     
@@ -199,11 +205,11 @@ clássico &lt;em&gt;Olá Mundo&lt;/em&gt;.&lt;/p&gt;
  mesmo diversas vezes.&lt;/p&gt;
 </description>
         <pubDate>Mon, 02 Nov 2015 20:30:00 -0200</pubDate>
-        <link>http://yourdomain.com/powershell/2015/11/02/introducao-ao-powershell.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/powershell/2015/11/02/introducao-ao-powershell.html</guid>
+        <link>http://yourdomain.com/microsoft/2015/11/02/introducao-ao-powershell.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/microsoft/2015/11/02/introducao-ao-powershell.html</guid>
         
         
-        <category>PowerShell</category>
+        <category>Microsoft</category>
         
       </item>
     
