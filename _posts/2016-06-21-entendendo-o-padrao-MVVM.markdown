@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Entendendo o padrão MVVM"
-date:   2016-06-21 07:07
+title: "Entendendo o padrão MVVM"
+date: 2016-06-21 07:07
 categories: Microsoft
 ---
 
