@@ -31,6 +31,14 @@ ou DATA SERVICES.
 
 A seguir vamos detalhar os principais componentes que viabilizam a aplicação do *MVVM*
 
-### 1. X:Bind ou Bind
+### 1. X:Bind ou Binding
 
-Essas tags são utilizadas 
+Essas tags são utilizadas para receber a atualização de valor propriedades de um objeto **MVVM** através do *XAML*.
+
+Observe que possuimos atribuição C# aqui.
+
+  `<CheckBox Content="CheckBox" HorizontalAlignment="Left" 
+		 	Height="28" Margin="10,10,0,0" 
+			 VerticalAlignment="Top" Width="311" 
+			 IsChecked="{Binding CheckBoxState, Mode=TwoWay}"/>`
+			 
