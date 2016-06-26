@@ -31,6 +31,29 @@ ou DATA SERVICES.
 
 A seguir vamos detalhar os principais componentes que viabilizam a aplicação do *MVVM*
 
-### 1. X:Bind ou Bind
+### 1. x:Bind ou Binding
 
-Essas tags são utilizadas 
+Essas tags são utilizadas para receber a atualização de valor propriedades de um objeto **MVVM** através do *XAML*.
+
+Observe que possuimos atribuição C# aqui.
+
+  `<CheckBox Content="CheckBox" HorizontalAlignment="Left" 
+		 	Height="28" Margin="10,10,0,0" 
+			 VerticalAlignment="Top" Width="311" 
+			 IsChecked="{Binding CheckBoxState, Mode=TwoWay}"/>`
+			 
+### 2. Classe MVVM do tipo INotifyPropertyChanged
+
+Aqui está a magica, pois todo objeto que herda a interface **INotifyPropertyChanged** e implementa um evento de notificação.  
+
+`public event PropertyChangedEventHandler PropertyChanged;`
+
+Esse evento é assinado para cada propriedade do objeto, fazendo com que ocorra uma notificação a cada alteração de valor da propriedade.
+
+Esse evento notifica o **x:Bind** do **XAML** e atualiza a interface para o usuário.
+
+  `protected void RaisePropertyChanged(string propertyName)
+   {
+     PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+   }`
+			 
