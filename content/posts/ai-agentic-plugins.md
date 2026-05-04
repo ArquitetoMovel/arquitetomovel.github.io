@@ -1,21 +1,20 @@
-+++
-date = '2026-05-03T18:22:52-03:00'
-draft = true
-title = 'AI Agentic Plugins: a infraestrutura que transforma prompts em ecossistema'
-description = 'Como plugins agentic empacotam skills, subagentes, workflows e regras em componentes versionados — com ganhos de portabilidade e novos riscos de segurança.'
-tags = ['ai', 'agentes', 'plugins', 'mcp']
-categories = ['ai']
-+++
+---
+title = "AI Agentic Plugins, a infraestrutura que transforma prompts em ecossistema"
+date = "2026-05-03"
+draft = false
+tags = ["ai", "agentes", "plugins", "mcp"]
+categories = ["ai"]
+description = "Como plugins agentic empacotam skills, subagentes, workflows e regras em componentes versionados — com ganhos de portabilidade e novos riscos de segurança."
+---
 
 > _"Plugins são para agentes o que extensões foram para o navegador e o que o npm foi para o JavaScript: a infraestrutura silenciosa que transforma uma ferramenta poderosa em um ecossistema."_
 
-**TL;DR:** plugins agentic empacotam skills, subagentes, workflows e regras como componentes instaláveis e versionados — reduzindo o “mega-prompt”, aumentando portabilidade e exigindo mais cuidado com segurança.
+Plugins empacotam skills, subagentes, workflows e regras como componentes instaláveis e versionados — reduzindo o “mega-prompt”, aumentando portabilidade e exigindo mais cuidado com segurança.
 
 A forma como interagimos com LLMs evoluiu em saltos curtos mas profundos: do chat livre para prompts estruturados em Markdown, destes para templates com variáveis, e agora para algo qualitativamente diferente — componentes com versão, escopo e distribuição. Se você ainda organiza seus prompts em pastas de texto solto, este artigo é sobre a infraestrutura que está substituindo isso.
 
 A comunidade convergiu para um padrão aberto que transforma prompts e fluxos de trabalho em **componentes instaláveis, com controle de versão e portáveis**: os AI Agentic Plugins.
 
----
 
 ## Estrutura de um AI Agentic Plugin
 

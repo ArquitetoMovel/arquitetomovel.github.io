@@ -1,11 +1,11 @@
-+++
-date = '2026-05-03T18:22:52-03:00'
-draft = true
-title = 'AI Agentic Plugins: the infrastructure that turns prompts into an ecosystem'
-description = 'How agentic plugins package skills, subagents, workflows, and repo rules into versioned components — improving portability while raising security stakes.'
-tags = ['ai', 'agents', 'plugins', 'mcp']
-categories = ['ai']
-+++
+---
+date: '2026-05-03'
+draft: false
+title: 'AI Agentic Plugins, the infrastructure that turns prompts into an ecosystem'
+description: 'How agentic plugins package skills, subagents, workflows, and repo rules into versioned components — improving portability while raising security stakes.'
+tags: ['ai', 'agents', 'plugins', 'mcp']
+categories: ['ai']
+---
 
 > _"Plugins are to agents what extensions were to browsers and what npm was to JavaScript: the silent infrastructure that turns a powerful tool into an ecosystem."_
 
