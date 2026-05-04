@@ -13,7 +13,6 @@ read_more: Leia mais
 # Common
 article: Artigo
 author: Autor
-categories: Categorias
 date: Data
 draft: Rascunho
 last_mod: Última modificação
@@ -22,6 +21,5 @@ now: Agora
 published_on: Publicado em
 read_time: Tempo de leitura
 tag: Tag
-tags: Tags
 toc: Índice
 translations: Traduções
