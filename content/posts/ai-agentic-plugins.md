@@ -1,10 +1,10 @@
 ---
-title = "AI Agentic Plugins, a infraestrutura que transforma prompts em ecossistema"
-date = "2026-05-03"
-draft = false
-tags = ["ai", "agentes", "plugins", "mcp"]
-categories = ["ai"]
-description = "Como plugins agentic empacotam skills, subagentes, workflows e regras em componentes versionados — com ganhos de portabilidade e novos riscos de segurança."
+title: "AI Agentic Plugins, a infraestrutura que transforma prompts em ecossistema"
+date: "2026-05-03"
+draft: false
+tags: ["ai", "agentes", "plugins", "mcp"]
+categories: ["ai"]
+description: "Como plugins agentic empacotam skills, subagentes, workflows e regras em componentes versionados — com ganhos de portabilidade e novos riscos de segurança."
 ---
 
 > _"Plugins são para agentes o que extensões foram para o navegador e o que o npm foi para o JavaScript: a infraestrutura silenciosa que transforma uma ferramenta poderosa em um ecossistema."_
